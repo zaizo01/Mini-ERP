@@ -1,0 +1,12 @@
+C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\EmailService\bin\Debug\net5.0\EmailService.deps.json
+C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\EmailService\bin\Debug\net5.0\EmailService.dll
+C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\EmailService\bin\Debug\net5.0\ref\EmailService.dll
+C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\EmailService\bin\Debug\net5.0\EmailService.pdb
+C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\EmailService\obj\Debug\net5.0\EmailService.csproj.AssemblyReference.cache
+C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\EmailService\obj\Debug\net5.0\EmailService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\EmailService\obj\Debug\net5.0\EmailService.AssemblyInfoInputs.cache
+C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\EmailService\obj\Debug\net5.0\EmailService.AssemblyInfo.cs
+C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\EmailService\obj\Debug\net5.0\EmailService.csproj.CoreCompileInputs.cache
+C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\EmailService\obj\Debug\net5.0\EmailService.dll
+C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\EmailService\obj\Debug\net5.0\ref\EmailService.dll
+C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\EmailService\obj\Debug\net5.0\EmailService.pdb

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiPractices", "WebApiPractices\WebApiPractices.csproj", "{E6F73943-444A-418C-8C4D-5E6AB65BE300}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailService", "EmailService\EmailService.csproj", "{1AD9F23F-7919-48F0-80FF-00B470A8742D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6F73943-444A-418C-8C4D-5E6AB65BE300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6F73943-444A-418C-8C4D-5E6AB65BE300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6F73943-444A-418C-8C4D-5E6AB65BE300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6F73943-444A-418C-8C4D-5E6AB65BE300}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AD9F23F-7919-48F0-80FF-00B470A8742D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AD9F23F-7919-48F0-80FF-00B470A8742D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AD9F23F-7919-48F0-80FF-00B470A8742D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AD9F23F-7919-48F0-80FF-00B470A8742D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0D53771-251A-46CF-9EF2-7E10903C8C38}
+	EndGlobalSection
+EndGlobal
