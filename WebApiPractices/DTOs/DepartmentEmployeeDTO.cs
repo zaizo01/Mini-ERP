@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WebApiPractices.Entities;
 
 namespace WebApiPractices.DTOs
 {
-    public class DepartmentGetDTO
+    public class DepartmentEmployeeDTO
     {
         public Guid Id { get; set; }
         public string DepartmentName { get; set; }

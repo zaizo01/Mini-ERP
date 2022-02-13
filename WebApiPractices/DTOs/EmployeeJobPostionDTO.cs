@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace WebApiPractices.Entities
+namespace WebApiPractices.DTOs
 {
-    public class Employee
+    public class EmployeeJobPostionDTO
     {
         public Guid Id { get; set; }
         public string FirstName { get; set; }
@@ -18,10 +18,6 @@ namespace WebApiPractices.Entities
         public string PhoneNumber { get; set; }
         public DateTime HireDate { get; set; }
         public DateTime BirthDate { get; set; }
-        public Guid DepartmentId { get; set; }
-        public Guid JobPositionId { get; set; }
-        public Department Department { get; set; }
-        public JobPosition JobPosition { get; set; }
-
+        public DepartmentEmployeeDTO Department { get; set; }
     }
 }

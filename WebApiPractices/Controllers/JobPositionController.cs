@@ -34,9 +34,33 @@ namespace WebApiPractices.Controllers
         [HttpGet("{id}", Name = "JobPositionById")]
         public async Task<ActionResult<JobPositionGetDTO>> JobPositionById(Guid id)
         {
-            var JobPosition = await context.JobPosition.FirstOrDefaultAsync(JobPosition => JobPosition.Id == id);
+            var JobPosition = await context.JobPosition
+                .Include(x => x.Employees)
+                .ThenInclude(x => x.Department)
+                .FirstOrDefaultAsync(JobPosition => JobPosition.Id == id);
             if (JobPosition == null) return NotFound();
             return mapper.Map<JobPositionGetDTO>(JobPosition);
+        }
+
+        [HttpGet]
+        public async Task<ActionResult<List<JobPositionWithEmployeesDTO>>> JobPositionListWithEmployees()
+        {
+            var JobPositions = await context.JobPosition
+                .Include(x => x.Employees)
+                .ThenInclude(x => x.Department)
+                .ToListAsync();
+            return mapper.Map<List<JobPositionWithEmployeesDTO>>(JobPositions);
+        }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<JobPositionWithEmployeesDTO>> JobPositionWithEmployeesById(Guid id)
+        {
+            var JobPosition = await context.JobPosition
+                .Include(x => x.Employees)
+                .ThenInclude(x => x.Department)
+                .FirstOrDefaultAsync();
+            if (JobPosition == null) return NotFound();
+            return mapper.Map<JobPositionWithEmployeesDTO>(JobPosition);
         }
 
         [HttpPost]

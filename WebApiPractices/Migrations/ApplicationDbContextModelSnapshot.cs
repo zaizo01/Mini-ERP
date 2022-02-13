@@ -247,7 +247,7 @@ namespace WebApiPractices.Migrations
                     b.Property<DateTime>("BirthDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<Guid?>("DepartmentId")
+                    b.Property<Guid>("DepartmentId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Email")
@@ -265,13 +265,7 @@ namespace WebApiPractices.Migrations
                     b.Property<DateTime>("HireDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<Guid>("IdDepartment")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid>("IdJobPosition")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid?>("JobPositionId")
+                    b.Property<Guid>("JobPositionId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("LastName")
@@ -364,11 +358,15 @@ namespace WebApiPractices.Migrations
                 {
                     b.HasOne("WebApiPractices.Entities.Department", "Department")
                         .WithMany("Employees")
-                        .HasForeignKey("DepartmentId");
+                        .HasForeignKey("DepartmentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("WebApiPractices.Entities.JobPosition", "JobPosition")
                         .WithMany("Employees")
-                        .HasForeignKey("JobPositionId");
+                        .HasForeignKey("JobPositionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Department");
 

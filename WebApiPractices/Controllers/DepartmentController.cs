@@ -38,21 +38,42 @@ namespace WebApiPractices.Controllers
             return mapper.Map<DepartmentGetDTO>(department);  
         }
 
+        [HttpGet]
+        public async Task<ActionResult<List<DepartmentWithEmployeesDTO>>> DepartmentListWithEmployees()
+        {
+            var departments = await context.Department
+                .Include(x => x.Employees)
+                .ThenInclude(x => x.JobPosition)
+                .ToListAsync();
+            return mapper.Map<List<DepartmentWithEmployeesDTO>>(departments);
+        }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<DepartmentWithEmployeesDTO>> DepartmentWithEmployeesById(Guid id)
+        {
+            var department = await context.Department
+                .Include(x => x.Employees)
+                .ThenInclude(x => x.JobPosition)
+                .FirstOrDefaultAsync();
+            if (department == null) return NotFound();
+            return mapper.Map<DepartmentWithEmployeesDTO>(department);
+        }
+
         [HttpPost]
         public async Task<ActionResult> DepartmentPost(DepartmentPostDTO department)
         {
-            var deparment = mapper.Map<Department>(department);
-            context.Add(deparment);
+            var departmentDB = mapper.Map<Department>(department);
+            context.Add(departmentDB);
             await context.SaveChangesAsync();
-            var departmentDTO = mapper.Map<DepartmentGetDTO>(deparment);
-            return CreatedAtRoute("", new { id = deparment.Id }, departmentDTO);
+            var departmentDTO = mapper.Map<DepartmentGetDTO>(departmentDB);
+            return CreatedAtRoute("DeparmentById", new { id = departmentDB.Id }, departmentDTO);
         }
 
         [HttpPut]
         public async Task<ActionResult> DepartmentPut(DepartmentPostDTO department, Guid id)
         {
             var departmentExist = await context.Department.AnyAsync(department => department.Id == id);
-            if (!departmentExist) return NoContent();
+            if (!departmentExist) return NotFound();
             var departmentDB = mapper.Map<Department>(department);
             departmentDB.Id = id;
             context.Update(departmentDB);
