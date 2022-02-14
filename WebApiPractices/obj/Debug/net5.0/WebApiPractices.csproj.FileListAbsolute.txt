@@ -140,3 +140,4 @@ C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\WebApiPractices\
 C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\WebApiPractices\bin\Debug\net5.0\NETCore.MailKit.dll
 C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\WebApiPractices\bin\Debug\net5.0\BouncyCastle.Crypto.dll
 C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\WebApiPractices\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\WebApiPractices\bin\Debug\net5.0\appsettings.Production.json
