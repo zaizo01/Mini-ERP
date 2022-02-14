@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiPractices", "WebApiPractices\WebApiPractices.csproj", "{E6F73943-444A-418C-8C4D-5E6AB65BE300}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailService", "EmailService\EmailService.csproj", "{1AD9F23F-7919-48F0-80FF-00B470A8742D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailService", "EmailService\EmailService.csproj", "{1AD9F23F-7919-48F0-80FF-00B470A8742D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{1F117BF3-C070-4E01-BA87-AAF951B4E429}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerService", "LoggerService\LoggerService.csproj", "{32B16A8D-AF68-46D1-A284-5204CCB62306}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{1AD9F23F-7919-48F0-80FF-00B470A8742D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AD9F23F-7919-48F0-80FF-00B470A8742D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AD9F23F-7919-48F0-80FF-00B470A8742D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F117BF3-C070-4E01-BA87-AAF951B4E429}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F117BF3-C070-4E01-BA87-AAF951B4E429}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F117BF3-C070-4E01-BA87-AAF951B4E429}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F117BF3-C070-4E01-BA87-AAF951B4E429}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32B16A8D-AF68-46D1-A284-5204CCB62306}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32B16A8D-AF68-46D1-A284-5204CCB62306}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32B16A8D-AF68-46D1-A284-5204CCB62306}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32B16A8D-AF68-46D1-A284-5204CCB62306}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -141,3 +141,10 @@ C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\WebApiPractices\
 C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\WebApiPractices\bin\Debug\net5.0\BouncyCastle.Crypto.dll
 C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\WebApiPractices\bin\Debug\net5.0\System.IO.Pipelines.dll
 C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\WebApiPractices\bin\Debug\net5.0\appsettings.Production.json
+C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\WebApiPractices\bin\Debug\net5.0\nlog.config
+C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\WebApiPractices\bin\Debug\net5.0\NLog.dll
+C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\WebApiPractices\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\WebApiPractices\bin\Debug\net5.0\Contracts.dll
+C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\WebApiPractices\bin\Debug\net5.0\LoggerService.dll
+C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\WebApiPractices\bin\Debug\net5.0\LoggerService.pdb
+C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\WebApiPractices\bin\Debug\net5.0\Contracts.pdb

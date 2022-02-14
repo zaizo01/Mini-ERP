@@ -5,7 +5,9 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using NLog;
 using System;
+using System.IO;
 using WebApiPractices.Helpers;
 
 namespace WebApiPractices
@@ -14,6 +16,7 @@ namespace WebApiPractices
     {
         public Startup(IConfiguration configuration)
         {
+            LogManager.LoadConfiguration(String.Concat(Directory.GetCurrentDirectory(), "/nlog.config"));
             Configuration = configuration;
         }
 
@@ -48,6 +51,8 @@ namespace WebApiPractices
             services.ConfigureAuthentication(Configuration);
 
             services.ConfigureSwaggerGen();
+
+            services.ConfigureLoggerService();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

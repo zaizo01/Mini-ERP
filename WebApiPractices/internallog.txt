@@ -1,0 +1,158 @@
+2022-02-13 23:29:38.2537 Debug Targets for LoggerService.LoggerManager by level:
+2022-02-13 23:29:38.2690 Debug Trace =>
+2022-02-13 23:29:38.2786 Debug Debug => logfile
+2022-02-13 23:29:38.2786 Debug Info => logfile
+2022-02-13 23:29:38.2928 Debug Warn => logfile
+2022-02-13 23:29:38.2928 Debug Error => logfile
+2022-02-13 23:29:38.3096 Debug Fatal => logfile
+2022-02-13 23:29:38.3668 Debug FileTarget(Name=logfile): Preparing for new file 'C:/Users/zaiz/Desktop/Desktop/API Restful Course/WebApiTemplate/WebApiPractices/2022-02-13_logfile.txt'
+2022-02-13 23:29:38.4052 Debug Creating file appender: C:/Users/zaiz/Desktop/Desktop/API Restful Course/WebApiTemplate/WebApiPractices/2022-02-13_logfile.txt
+2022-02-13 23:29:38.4160 Trace Opening C:/Users/zaiz/Desktop/Desktop/API Restful Course/WebApiTemplate/WebApiPractices/2022-02-13_logfile.txt with allowFileSharedWriting=False
+2022-02-13 23:29:38.4354 Trace Opening C:/Users/zaiz/Desktop/Desktop/API Restful Course/WebApiTemplate/WebApiPractices/2022-02-13_logfile.txt with allowFileSharedWriting=False
+2022-02-13 23:29:38.4502 Trace Opening C:/Users/zaiz/Desktop/Desktop/API Restful Course/WebApiTemplate/WebApiPractices/2022-02-13_logfile.txt with allowFileSharedWriting=False
+2022-02-13 23:29:38.4502 Trace Opening C:/Users/zaiz/Desktop/Desktop/API Restful Course/WebApiTemplate/WebApiPractices/2022-02-13_logfile.txt with allowFileSharedWriting=False
+2022-02-13 23:33:19.5744 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2022-02-13 23:33:19.8659 Debug Found assembly location directory: 'C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\WebApiPractices\bin\Debug\net5.0' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2022-02-13 23:33:19.9157 Debug Auto loading based on NLog-Assembly found location: C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\WebApiPractices\bin\Debug\net5.0
+2022-02-13 23:33:19.9528 Debug Search for auto loading files in location: C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\WebApiPractices\bin\Debug\net5.0
+2022-02-13 23:33:19.9772 Debug Start auto loading, location: C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\WebApiPractices\bin\Debug\net5.0
+2022-02-13 23:33:19.9929 Info Auto loading assembly file: C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\WebApiPractices\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+2022-02-13 23:33:20.0066 Info Loading assembly file: C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\WebApiPractices\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+2022-02-13 23:33:20.2829 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.4.1610. Product version: 1.7.4+e2bffa9e949fb4760d75aca224e78631c063f087. GlobalAssemblyCache: False
+2022-02-13 23:33:20.2963 Debug ScanAssembly('NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2022-02-13 23:33:20.3140 Info Auto loading assembly file: C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\WebApiPractices\bin\Debug\net5.0\NLog.Extensions.Logging.dll succeeded!
+2022-02-13 23:33:20.3272 Trace Assembly 'Microsoft.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2022-02-13 23:33:20.3403 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2022-02-13 23:33:20.3580 Trace Assembly 'NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2022-02-13 23:33:20.3694 Debug Auto loading done
+2022-02-13 23:33:20.3694 Info Message Template Auto Format enabled
+2022-02-13 23:33:20.4335 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-02-13 23:33:20.4500 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-02-13 23:33:20.4747 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2022-02-13 23:33:20.4923 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2022-02-13 23:33:20.5045 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-02-13 23:33:20.5244 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-02-13 23:33:20.5373 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-02-13 23:33:20.5487 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2022-02-13 23:33:20.5685 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2022-02-13 23:33:20.5859 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2022-02-13 23:33:20.6243 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2022-02-13 23:33:20.6396 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-02-13 23:33:20.6559 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-02-13 23:33:20.6681 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2022-02-13 23:33:20.6839 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-02-13 23:33:20.6982 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-02-13 23:33:20.7229 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2022-02-13 23:33:20.7411 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'C:/Users/zaiz/Desktop/Desktop/API Restful Course/WebApiTemplate/WebApiPractices/${shortdate}_logfile.txt'
+2022-02-13 23:33:20.7554 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-02-13 23:33:20.7698 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-02-13 23:33:20.7838 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2022-02-13 23:33:20.7968 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-02-13 23:33:20.8095 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-02-13 23:33:20.8230 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2022-02-13 23:33:20.8230 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2022-02-13 23:33:20.8475 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-02-13 23:33:20.8644 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-02-13 23:33:20.8769 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-02-13 23:33:20.8877 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2022-02-13 23:33:20.9185 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2022-02-13 23:33:20.9373 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2022-02-13 23:33:20.9519 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2022-02-13 23:33:20.9637 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-02-13 23:33:20.9637 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-02-13 23:33:20.9902 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-02-13 23:33:21.0026 Info Adding target FileTarget(Name=logfile)
+2022-02-13 23:33:21.0194 Debug Registered target logfile: NLog.Targets.FileTarget
+2022-02-13 23:33:21.0321 Trace ParseRulesElement
+2022-02-13 23:33:21.0690 Debug Watching path 'C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\WebApiPractices' filter 'nlog.config' for changes.
+2022-02-13 23:33:21.0870 Debug --- NLog configuration dump ---
+2022-02-13 23:33:21.0870 Debug Targets:
+2022-02-13 23:33:21.1346 Debug File Target[logfile]
+2022-02-13 23:33:21.1760 Debug Rules:
+2022-02-13 23:33:21.1930 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2022-02-13 23:33:21.2052 Debug --- End of NLog configuration dump ---
+2022-02-13 23:33:21.2210 Trace FindReachableObject<System.Object>:
+2022-02-13 23:33:21.2344 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2022-02-13 23:33:21.2485 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2022-02-13 23:33:21.2624 Trace  Scanning FileTarget 'File Target[logfile]'
+2022-02-13 23:33:21.2842 Trace   Scanning Property FileName ''C:/Users/zaiz/Desktop/Desktop/API Restful Course/WebApiTemplate/WebApiPractices/${shortdate}_logfile.txt'' NLog.Layouts
+2022-02-13 23:33:21.2926 Trace   Scanning SimpleLayout ''C:/Users/zaiz/Desktop/Desktop/API Restful Course/WebApiTemplate/WebApiPractices/${shortdate}_logfile.txt''
+2022-02-13 23:33:21.2926 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2022-02-13 23:33:21.3196 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-02-13 23:33:21.3344 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-02-13 23:33:21.3737 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-02-13 23:33:21.3907 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2022-02-13 23:33:21.4071 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2022-02-13 23:33:21.4219 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2022-02-13 23:33:21.4481 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-02-13 23:33:21.4481 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-02-13 23:33:21.4673 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2022-02-13 23:33:21.4673 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2022-02-13 23:33:21.4922 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2022-02-13 23:33:21.5019 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2022-02-13 23:33:21.5129 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-02-13 23:33:21.5129 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-02-13 23:33:21.5377 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-02-13 23:33:21.5502 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2022-02-13 23:33:21.5700 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2022-02-13 23:33:21.5880 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2022-02-13 23:33:21.6142 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\WebApiPractices/nlog.config
+2022-02-13 23:33:21.6313 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2022-02-13 23:33:21.7063 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2022-02-13 23:33:21.7203 Trace Initializing Layout Renderer: ${message}
+2022-02-13 23:33:21.7406 Trace Initializing Layout Renderer: ${literal}
+2022-02-13 23:33:21.7595 Trace Initializing Layout Renderer: ${level}
+2022-02-13 23:33:21.7865 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2022-02-13 23:33:21.8064 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-02-13 23:33:21.8238 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2022-02-13 23:33:21.8383 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2022-02-13 23:33:21.8553 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-02-13 23:33:21.8819 Trace Initializing Layout Renderer: ${uppercase}
+2022-02-13 23:33:21.8915 Trace Initializing Layout Renderer: ${literal}
+2022-02-13 23:33:21.9062 Trace Initializing Layout Renderer: ${longdate}
+2022-02-13 23:33:21.9204 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2022-02-13 23:33:21.9336 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-02-13 23:33:21.9523 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2022-02-13 23:33:21.9752 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2022-02-13 23:33:21.9997 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2022-02-13 23:33:22.0124 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-02-13 23:33:22.0279 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2022-02-13 23:33:22.0279 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2022-02-13 23:33:22.0526 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2022-02-13 23:33:22.0707 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2022-02-13 23:33:22.0836 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2022-02-13 23:33:22.0920 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-02-13 23:33:22.1039 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2022-02-13 23:33:22.1221 Trace Initializing Layout Renderer: ${literal}
+2022-02-13 23:33:22.1221 Trace Initializing Layout Renderer: ${shortdate}
+2022-02-13 23:33:22.1419 Trace Initializing Layout Renderer: ${literal}
+2022-02-13 23:33:22.1581 Trace Initializing 'C:/Users/zaiz/Desktop/Desktop/API Restful Course/WebApiTemplate/WebApiPractices/${shortdate}_logfile.txt'
+2022-02-13 23:33:22.1730 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2022-02-13 23:33:22.1952 Trace Scanning SimpleLayout ''C:/Users/zaiz/Desktop/Desktop/API Restful Course/WebApiTemplate/WebApiPractices/${shortdate}_logfile.txt''
+2022-02-13 23:33:22.2087 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2022-02-13 23:33:22.2180 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-02-13 23:33:22.2180 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2022-02-13 23:33:22.2425 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2022-02-13 23:33:22.2521 Trace Initializing File Target[logfile]
+2022-02-13 23:33:22.2679 Trace FindReachableObject<NLog.Layouts.Layout>:
+2022-02-13 23:33:22.2783 Trace Scanning FileTarget 'File Target[logfile]'
+2022-02-13 23:33:22.2783 Trace  Scanning Property FileName ''C:/Users/zaiz/Desktop/Desktop/API Restful Course/WebApiTemplate/WebApiPractices/${shortdate}_logfile.txt'' NLog.Layouts
+2022-02-13 23:33:22.2948 Trace  Scanning SimpleLayout ''C:/Users/zaiz/Desktop/Desktop/API Restful Course/WebApiTemplate/WebApiPractices/${shortdate}_logfile.txt''
+2022-02-13 23:33:22.2948 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2022-02-13 23:33:22.3143 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2022-02-13 23:33:22.3225 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2022-02-13 23:33:22.3225 Trace File Target[logfile] has 2 layouts
+2022-02-13 23:33:22.3422 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2022-02-13 23:33:47.4595 Debug Targets for LoggerService.LoggerManager by level:
+2022-02-13 23:33:47.4757 Debug Trace =>
+2022-02-13 23:33:47.5252 Debug Debug => logfile
+2022-02-13 23:33:47.5597 Debug Info => logfile
+2022-02-13 23:33:47.5964 Debug Warn => logfile
+2022-02-13 23:33:47.6157 Debug Error => logfile
+2022-02-13 23:33:47.6359 Debug Fatal => logfile
+2022-02-13 23:33:47.6940 Debug FileTarget(Name=logfile): Preparing for new file 'C:/Users/zaiz/Desktop/Desktop/API Restful Course/WebApiTemplate/WebApiPractices/2022-02-13_logfile.txt'
+2022-02-13 23:33:47.7304 Debug Creating file appender: C:/Users/zaiz/Desktop/Desktop/API Restful Course/WebApiTemplate/WebApiPractices/2022-02-13_logfile.txt
+2022-02-13 23:33:47.7593 Trace Opening C:/Users/zaiz/Desktop/Desktop/API Restful Course/WebApiTemplate/WebApiPractices/2022-02-13_logfile.txt with allowFileSharedWriting=False
+2022-02-13 23:33:47.7909 Trace Opening C:/Users/zaiz/Desktop/Desktop/API Restful Course/WebApiTemplate/WebApiPractices/2022-02-13_logfile.txt with allowFileSharedWriting=False
+2022-02-13 23:33:47.8217 Trace Opening C:/Users/zaiz/Desktop/Desktop/API Restful Course/WebApiTemplate/WebApiPractices/2022-02-13_logfile.txt with allowFileSharedWriting=False
+2022-02-13 23:33:47.8503 Trace Opening C:/Users/zaiz/Desktop/Desktop/API Restful Course/WebApiTemplate/WebApiPractices/2022-02-13_logfile.txt with allowFileSharedWriting=False
