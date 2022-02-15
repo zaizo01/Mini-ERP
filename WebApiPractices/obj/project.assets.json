@@ -2391,7 +2391,7 @@
           "bin/placeholder/EmailService.dll": {}
         }
       },
-      "LogDB/1.0.0": {
+      "LoggerService/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
@@ -2400,10 +2400,10 @@
           "System.Data.SqlClient": "4.8.3"
         },
         "compile": {
-          "bin/placeholder/LogDB.dll": {}
+          "bin/placeholder/LoggerService.dll": {}
         },
         "runtime": {
-          "bin/placeholder/LogDB.dll": {}
+          "bin/placeholder/LoggerService.dll": {}
         }
       }
     }
@@ -7931,17 +7931,17 @@
       "path": "../EmailService/EmailService.csproj",
       "msbuildProject": "../EmailService/EmailService.csproj"
     },
-    "LogDB/1.0.0": {
+    "LoggerService/1.0.0": {
       "type": "project",
-      "path": "../LogDB/LogDB.csproj",
-      "msbuildProject": "../LogDB/LogDB.csproj"
+      "path": "../LogDB/LoggerService.csproj",
+      "msbuildProject": "../LogDB/LoggerService.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 11.0.0",
       "EmailService >= 1.0.0",
-      "LogDB >= 1.0.0",
+      "LoggerService >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 5.0.0",
       "Microsoft.AspNetCore.Cors >= 2.2.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.0",
@@ -7987,8 +7987,8 @@
             "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\EmailService\\EmailService.csproj": {
               "projectPath": "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\EmailService\\EmailService.csproj"
             },
-            "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\LogDB\\LogDB.csproj": {
-              "projectPath": "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\LogDB\\LogDB.csproj"
+            "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\LogDB\\LoggerService.csproj": {
+              "projectPath": "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\LogDB\\LoggerService.csproj"
             }
           }
         }

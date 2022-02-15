@@ -2351,7 +2351,7 @@
           "bin/placeholder/EmailService.dll": {}
         }
       },
-      "LogDB/1.0.0": {
+      "LoggerService/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
@@ -2360,10 +2360,10 @@
           "System.Data.SqlClient": "4.8.3"
         },
         "compile": {
-          "bin/placeholder/LogDB.dll": {}
+          "bin/placeholder/LoggerService.dll": {}
         },
         "runtime": {
-          "bin/placeholder/LogDB.dll": {}
+          "bin/placeholder/LoggerService.dll": {}
         }
       },
       "WebApiPractices/1.0.0": {
@@ -2372,7 +2372,7 @@
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
           "EmailService": "1.0.0",
-          "LogDB": "1.0.0",
+          "LoggerService": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.0",
           "Microsoft.AspNetCore.Cors": "2.2.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.0",
@@ -7861,10 +7861,10 @@
       "path": "../EmailService/EmailService.csproj",
       "msbuildProject": "../EmailService/EmailService.csproj"
     },
-    "LogDB/1.0.0": {
+    "LoggerService/1.0.0": {
       "type": "project",
-      "path": "../LogDB/LogDB.csproj",
-      "msbuildProject": "../LogDB/LogDB.csproj"
+      "path": "../LogDB/LoggerService.csproj",
+      "msbuildProject": "../LogDB/LoggerService.csproj"
     },
     "WebApiPractices/1.0.0": {
       "type": "project",

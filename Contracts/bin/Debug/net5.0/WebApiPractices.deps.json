@@ -35,7 +35,7 @@
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
           "EmailService": "1.0.0",
-          "LoggerService": "1.0.0",
+          "LogDB": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.0",
           "Microsoft.AspNetCore.Cors": "2.2.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.0",
@@ -928,11 +928,11 @@
           "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {}
         }
       },
-      "NLog/4.7.11": {
+      "NLog/4.7.13": {
         "runtime": {
           "lib/netstandard2.0/NLog.dll": {
             "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.7.11.13229"
+            "fileVersion": "4.7.13.493"
           }
         },
         "compile": {
@@ -943,7 +943,7 @@
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "5.0.0",
           "Microsoft.Extensions.Logging": "5.0.0",
-          "NLog": "4.7.11"
+          "NLog": "4.7.13"
         },
         "runtime": {
           "lib/net5.0/NLog.Extensions.Logging.dll": {
@@ -1892,14 +1892,6 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
-      "Contracts/1.0.0": {
-        "runtime": {
-          "Contracts.dll": {}
-        },
-        "compile": {
-          "Contracts.dll": {}
-        }
-      },
       "EmailService/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Http.Features": "5.0.13",
@@ -1910,20 +1902,6 @@
         },
         "compile": {
           "EmailService.dll": {}
-        }
-      },
-      "LoggerService/1.0.0": {
-        "dependencies": {
-          "Contracts": "1.0.0",
-          "NLog.Extensions.Logging": "1.7.4",
-          "NLog.Web.AspNetCore": "4.14.0",
-          "System.Data.SqlClient": "4.8.3"
-        },
-        "runtime": {
-          "LoggerService.dll": {}
-        },
-        "compile": {
-          "LoggerService.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -3587,6 +3565,14 @@
           "WindowsBase.dll": {}
         },
         "compileOnly": true
+      },
+      "LogDB/1.0.0": {
+        "dependencies": {
+          "NLog": "4.7.13",
+          "NLog.Web.AspNetCore": "4.14.0",
+          "System.Data.SqlClient": "4.8.3"
+        },
+        "compileOnly": true
       }
     }
   },
@@ -3974,12 +3960,12 @@
       "path": "newtonsoft.json.bson/1.0.2",
       "hashPath": "newtonsoft.json.bson.1.0.2.nupkg.sha512"
     },
-    "NLog/4.7.11": {
+    "NLog/4.7.13": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-A7EpoOjWesV5BPx1cOiBndazZq1VGdagIs6oK8ttcRDl5adCMtHiTqnsD5yYaOrMxOQeCjHBf/w3nKzCmhGbgw==",
-      "path": "nlog/4.7.11",
-      "hashPath": "nlog.4.7.11.nupkg.sha512"
+      "sha512": "sha512-AvoGpCuq36B+0wY313XA6gC+YeMvk24rqF8P+HS9fInBGOjCzPjpXp2ln9ATZjPOJtXgHfc8zNmTjyswFGLxvg==",
+      "path": "nlog/4.7.13",
+      "hashPath": "nlog.4.7.13.nupkg.sha512"
     },
     "NLog.Extensions.Logging/1.7.4": {
       "type": "package",
@@ -4716,17 +4702,7 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
-    "Contracts/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "EmailService/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "LoggerService/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -6113,6 +6089,11 @@
     },
     "WindowsBase/4.0.0.0": {
       "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LogDB/1.0.0": {
+      "type": "project",
       "serviceable": false,
       "sha512": ""
     }

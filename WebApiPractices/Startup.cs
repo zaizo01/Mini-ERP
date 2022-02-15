@@ -1,4 +1,5 @@
 using EmailService;
+using LogDB;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
@@ -8,6 +9,7 @@ using Microsoft.Extensions.Hosting;
 using NLog;
 using System;
 using System.IO;
+using WebApiPractices.Extensions;
 using WebApiPractices.Helpers;
 
 namespace WebApiPractices
@@ -56,7 +58,7 @@ namespace WebApiPractices
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerManager logger)
         {
             if (env.IsDevelopment())
             {
@@ -64,6 +66,9 @@ namespace WebApiPractices
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebApiPractices v1"));
             }
+
+            //app.ConfigureExceptionHandler(logger);
+            app.ConfigureCustomExceptionMiddleware();
 
             app.UseCors("CorsPolicy");
 

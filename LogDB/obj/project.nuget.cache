@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Yd1UsfMVYtpx1ZXaDc83AVxLo/PYZGarCfpcrlfJEKBJC21jaJvfmcuJ3L7Z5rFUNtLQmSeTRhGK/Bbn1eA5AQ==",
+  "dgSpecHash": "b1on7A+lio2PIqsnN7PSpkp3nfnQ4AqPvAd9lVcw3syyfgBMBmGk2zW0JPJIS7ZvQfklu7ydxOTnR5NCHkfgjw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\LogDB\\LogDB.csproj",
+  "projectFilePath": "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\LogDB\\LoggerService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zaiz\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\zaiz\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",

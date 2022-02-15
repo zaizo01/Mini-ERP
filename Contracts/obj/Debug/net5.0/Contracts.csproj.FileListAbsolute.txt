@@ -19,11 +19,9 @@ C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\Contracts\bin\De
 C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\Contracts\bin\Debug\net5.0\appsettings.Production.json
 C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\Contracts\bin\Debug\net5.0\WebApiPractices.exe
 C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\Contracts\bin\Debug\net5.0\EmailService.dll
-C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\Contracts\bin\Debug\net5.0\LogDB.dll
 C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\Contracts\bin\Debug\net5.0\WebApiPractices.dll
-C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\Contracts\bin\Debug\net5.0\LoggerService.dll
-C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\Contracts\bin\Debug\net5.0\LogDB.pdb
 C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\Contracts\bin\Debug\net5.0\WebApiPractices.pdb
 C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\Contracts\bin\Debug\net5.0\EmailService.pdb
-C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\Contracts\bin\Debug\net5.0\LoggerService.pdb
 C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\Contracts\obj\Debug\net5.0\Contracts.csproj.CopyComplete
+C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\Contracts\bin\Debug\net5.0\LoggerServices.dll
+C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\Contracts\bin\Debug\net5.0\LoggerServices.pdb

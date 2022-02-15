@@ -8,7 +8,6 @@
     ".NETCoreApp,Version=v5.0": {
       "Contracts/1.0.0": {
         "dependencies": {
-          "LogDB": "1.0.0",
           "WebApiPractices": "1.0.0"
         },
         "runtime": {
@@ -1450,21 +1449,21 @@
           "EmailService.dll": {}
         }
       },
-      "LogDB/1.0.0": {
+      "LoggerServices/1.0.0": {
         "dependencies": {
           "NLog": "4.7.13",
           "NLog.Web.AspNetCore": "4.14.0",
           "System.Data.SqlClient": "4.8.3"
         },
         "runtime": {
-          "LogDB.dll": {}
+          "LoggerServices.dll": {}
         }
       },
       "WebApiPractices/1.0.0": {
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
           "EmailService": "1.0.0",
-          "LogDB": "1.0.0",
+          "LoggerServices": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.0",
           "Microsoft.AspNetCore.Cors": "2.2.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.0",
@@ -1475,14 +1474,6 @@
         },
         "runtime": {
           "WebApiPractices.dll": {}
-        }
-      },
-      "LoggerService/1.0.0.0": {
-        "runtime": {
-          "LoggerService.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
         }
       }
     }
@@ -2597,18 +2588,13 @@
       "serviceable": false,
       "sha512": ""
     },
-    "LogDB/1.0.0": {
+    "LoggerServices/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "WebApiPractices/1.0.0": {
       "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "LoggerService/1.0.0.0": {
-      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

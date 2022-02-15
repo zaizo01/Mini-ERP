@@ -29,17 +29,12 @@ namespace WebApiPractices.Controllers
         [HttpGet]
         public async Task<ActionResult<List<DepartmentGetDTO>>> DepartmentList()
         {
-            try
-            {
+           
                 var departments = await context.Department.ToListAsync();
-                logger.LogInfo($"Test");
+            throw new Exception("Exception");
                 return mapper.Map<List<DepartmentGetDTO>>(departments);
-            }
-            catch (Exception ex)
-            {
-                logger.LogError($"Something went wrong inside the DepartmentList: {ex}");
-                return StatusCode(500, "Internal server error");
-            }
+
+           
         }
 
         [HttpGet("{id}", Name = "DeparmentById")]

@@ -35,7 +35,7 @@
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
           "EmailService": "1.0.0",
-          "LogDB": "1.0.0",
+          "LoggerService": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.0",
           "Microsoft.AspNetCore.Cors": "2.2.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.0",
@@ -1904,17 +1904,17 @@
           "EmailService.dll": {}
         }
       },
-      "LogDB/1.0.0": {
+      "LoggerService/1.0.0": {
         "dependencies": {
           "NLog": "4.7.13",
           "NLog.Web.AspNetCore": "4.14.0",
           "System.Data.SqlClient": "4.8.3"
         },
         "runtime": {
-          "LogDB.dll": {}
+          "LoggerService.dll": {}
         },
         "compile": {
-          "LogDB.dll": {}
+          "LoggerService.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -4712,7 +4712,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "LogDB/1.0.0": {
+    "LoggerService/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

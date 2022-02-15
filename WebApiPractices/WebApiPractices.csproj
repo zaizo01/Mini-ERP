@@ -21,7 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EmailService\EmailService.csproj" />
-    <ProjectReference Include="..\LogDB\LogDB.csproj" />
+    <ProjectReference Include="..\LogDB\LoggerService.csproj" />
   </ItemGroup>
 
   <ItemGroup>
