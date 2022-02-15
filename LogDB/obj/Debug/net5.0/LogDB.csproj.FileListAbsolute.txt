@@ -1,0 +1,12 @@
+C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\LogDB\bin\Debug\net5.0\LogDB.deps.json
+C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\LogDB\bin\Debug\net5.0\LogDB.dll
+C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\LogDB\bin\Debug\net5.0\ref\LogDB.dll
+C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\LogDB\bin\Debug\net5.0\LogDB.pdb
+C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\LogDB\obj\Debug\net5.0\LogDB.csproj.AssemblyReference.cache
+C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\LogDB\obj\Debug\net5.0\LogDB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\LogDB\obj\Debug\net5.0\LogDB.AssemblyInfoInputs.cache
+C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\LogDB\obj\Debug\net5.0\LogDB.AssemblyInfo.cs
+C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\LogDB\obj\Debug\net5.0\LogDB.csproj.CoreCompileInputs.cache
+C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\LogDB\obj\Debug\net5.0\LogDB.dll
+C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\LogDB\obj\Debug\net5.0\ref\LogDB.dll
+C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\LogDB\obj\Debug\net5.0\LogDB.pdb

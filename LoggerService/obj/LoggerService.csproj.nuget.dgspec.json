@@ -109,6 +109,14 @@
             "NLog.Extensions.Logging": {
               "target": "Package",
               "version": "[1.7.4, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[4.14.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
             }
           },
           "imports": [

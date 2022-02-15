@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using LoggerService;
+using LogDB;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;

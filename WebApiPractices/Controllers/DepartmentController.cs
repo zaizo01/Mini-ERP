@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using LoggerService;
+using LogDB;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -32,6 +32,7 @@ namespace WebApiPractices.Controllers
             try
             {
                 var departments = await context.Department.ToListAsync();
+                logger.LogInfo($"Test");
                 return mapper.Map<List<DepartmentGetDTO>>(departments);
             }
             catch (Exception ex)
