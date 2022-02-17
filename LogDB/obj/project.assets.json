@@ -805,23 +805,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\zaiz\\.nuget\\packages\\": {},
+    "C:\\Users\\CZaiz\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\LogDB\\LoggerService.csproj",
+      "projectUniqueName": "C:\\Users\\CZaiz\\Desktop\\Files\\Mini-ERP\\LogDB\\LoggerService.csproj",
       "projectName": "LoggerService",
-      "projectPath": "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\LogDB\\LoggerService.csproj",
-      "packagesPath": "C:\\Users\\zaiz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\LogDB\\obj\\",
+      "projectPath": "C:\\Users\\CZaiz\\Desktop\\Files\\Mini-ERP\\LogDB\\LoggerService.csproj",
+      "packagesPath": "C:\\Users\\CZaiz\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\CZaiz\\Desktop\\Files\\Mini-ERP\\LogDB\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\zaiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\CZaiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

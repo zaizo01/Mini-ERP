@@ -25,3 +25,30 @@ C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\Contracts\bin\De
 C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\Contracts\obj\Debug\net5.0\Contracts.csproj.CopyComplete
 C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\Contracts\bin\Debug\net5.0\LoggerServices.dll
 C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\Contracts\bin\Debug\net5.0\LoggerServices.pdb
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\Contracts\bin\Debug\net5.0\WebApiPractices.deps.json
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\Contracts\bin\Debug\net5.0\WebApiPractices.runtimeconfig.json
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\Contracts\bin\Debug\net5.0\WebApiPractices.runtimeconfig.dev.json
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\Contracts\bin\Debug\net5.0\nlog.config
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\Contracts\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\Contracts\bin\Debug\net5.0\appsettings.json
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\Contracts\bin\Debug\net5.0\appsettings.Production.json
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\Contracts\bin\Debug\net5.0\WebApiPractices.exe
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\Contracts\bin\Debug\net5.0\Contracts.deps.json
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\Contracts\bin\Debug\net5.0\Contracts.dll
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\Contracts\bin\Debug\net5.0\ref\Contracts.dll
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\Contracts\bin\Debug\net5.0\Contracts.pdb
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\Contracts\bin\Debug\net5.0\EmailService.dll
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\Contracts\bin\Debug\net5.0\LoggerService.dll
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\Contracts\bin\Debug\net5.0\WebApiPractices.dll
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\Contracts\bin\Debug\net5.0\WebApiPractices.pdb
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\Contracts\bin\Debug\net5.0\EmailService.pdb
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\Contracts\bin\Debug\net5.0\LoggerService.pdb
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\Contracts\obj\Debug\net5.0\Contracts.csproj.AssemblyReference.cache
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\Contracts\obj\Debug\net5.0\Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\Contracts\obj\Debug\net5.0\Contracts.AssemblyInfoInputs.cache
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\Contracts\obj\Debug\net5.0\Contracts.AssemblyInfo.cs
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\Contracts\obj\Debug\net5.0\Contracts.csproj.CoreCompileInputs.cache
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\Contracts\obj\Debug\net5.0\Contracts.csproj.CopyComplete
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\Contracts\obj\Debug\net5.0\Contracts.dll
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\Contracts\obj\Debug\net5.0\ref\Contracts.dll
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\Contracts\obj\Debug\net5.0\Contracts.pdb

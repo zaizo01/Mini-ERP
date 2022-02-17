@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\Contracts\\Contracts.csproj": {}
+    "C:\\Users\\CZaiz\\Desktop\\Files\\Mini-ERP\\Contracts\\Contracts.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\Contracts\\Contracts.csproj": {
+    "C:\\Users\\CZaiz\\Desktop\\Files\\Mini-ERP\\Contracts\\Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\Contracts\\Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\CZaiz\\Desktop\\Files\\Mini-ERP\\Contracts\\Contracts.csproj",
         "projectName": "Contracts",
-        "projectPath": "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\Contracts\\Contracts.csproj",
-        "packagesPath": "C:\\Users\\zaiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\Contracts\\obj\\",
+        "projectPath": "C:\\Users\\CZaiz\\Desktop\\Files\\Mini-ERP\\Contracts\\Contracts.csproj",
+        "packagesPath": "C:\\Users\\CZaiz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CZaiz\\Desktop\\Files\\Mini-ERP\\Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\zaiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CZaiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\WebApiPractices\\WebApiPractices.csproj": {
-                "projectPath": "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\WebApiPractices\\WebApiPractices.csproj"
+              "C:\\Users\\CZaiz\\Desktop\\Files\\Mini-ERP\\WebApiPractices\\WebApiPractices.csproj": {
+                "projectPath": "C:\\Users\\CZaiz\\Desktop\\Files\\Mini-ERP\\WebApiPractices\\WebApiPractices.csproj"
               }
             }
           }
@@ -66,20 +66,20 @@
         }
       }
     },
-    "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\EmailService\\EmailService.csproj": {
+    "C:\\Users\\CZaiz\\Desktop\\Files\\Mini-ERP\\EmailService\\EmailService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\EmailService\\EmailService.csproj",
+        "projectUniqueName": "C:\\Users\\CZaiz\\Desktop\\Files\\Mini-ERP\\EmailService\\EmailService.csproj",
         "projectName": "EmailService",
-        "projectPath": "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\EmailService\\EmailService.csproj",
-        "packagesPath": "C:\\Users\\zaiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\EmailService\\obj\\",
+        "projectPath": "C:\\Users\\CZaiz\\Desktop\\Files\\Mini-ERP\\EmailService\\EmailService.csproj",
+        "packagesPath": "C:\\Users\\CZaiz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CZaiz\\Desktop\\Files\\Mini-ERP\\EmailService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\zaiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CZaiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -134,20 +134,20 @@
         }
       }
     },
-    "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\LogDB\\LoggerService.csproj": {
+    "C:\\Users\\CZaiz\\Desktop\\Files\\Mini-ERP\\LogDB\\LoggerService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\LogDB\\LoggerService.csproj",
+        "projectUniqueName": "C:\\Users\\CZaiz\\Desktop\\Files\\Mini-ERP\\LogDB\\LoggerService.csproj",
         "projectName": "LoggerService",
-        "projectPath": "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\LogDB\\LoggerService.csproj",
-        "packagesPath": "C:\\Users\\zaiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\LogDB\\obj\\",
+        "projectPath": "C:\\Users\\CZaiz\\Desktop\\Files\\Mini-ERP\\LogDB\\LoggerService.csproj",
+        "packagesPath": "C:\\Users\\CZaiz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CZaiz\\Desktop\\Files\\Mini-ERP\\LogDB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\zaiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CZaiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -206,20 +206,20 @@
         }
       }
     },
-    "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\WebApiPractices\\WebApiPractices.csproj": {
+    "C:\\Users\\CZaiz\\Desktop\\Files\\Mini-ERP\\WebApiPractices\\WebApiPractices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\WebApiPractices\\WebApiPractices.csproj",
+        "projectUniqueName": "C:\\Users\\CZaiz\\Desktop\\Files\\Mini-ERP\\WebApiPractices\\WebApiPractices.csproj",
         "projectName": "WebApiPractices",
-        "projectPath": "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\WebApiPractices\\WebApiPractices.csproj",
-        "packagesPath": "C:\\Users\\zaiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\WebApiPractices\\obj\\",
+        "projectPath": "C:\\Users\\CZaiz\\Desktop\\Files\\Mini-ERP\\WebApiPractices\\WebApiPractices.csproj",
+        "packagesPath": "C:\\Users\\CZaiz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CZaiz\\Desktop\\Files\\Mini-ERP\\WebApiPractices\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\zaiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CZaiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -234,11 +234,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\EmailService\\EmailService.csproj": {
-                "projectPath": "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\EmailService\\EmailService.csproj"
+              "C:\\Users\\CZaiz\\Desktop\\Files\\Mini-ERP\\EmailService\\EmailService.csproj": {
+                "projectPath": "C:\\Users\\CZaiz\\Desktop\\Files\\Mini-ERP\\EmailService\\EmailService.csproj"
               },
-              "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\LogDB\\LoggerService.csproj": {
-                "projectPath": "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\LogDB\\LoggerService.csproj"
+              "C:\\Users\\CZaiz\\Desktop\\Files\\Mini-ERP\\LogDB\\LoggerService.csproj": {
+                "projectPath": "C:\\Users\\CZaiz\\Desktop\\Files\\Mini-ERP\\LogDB\\LoggerService.csproj"
               }
             }
           }

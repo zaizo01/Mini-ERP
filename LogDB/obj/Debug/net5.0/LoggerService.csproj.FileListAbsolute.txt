@@ -10,3 +10,15 @@ C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\LogDB\obj\Debug\
 C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\LogDB\obj\Debug\net5.0\LoggerService.dll
 C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\LogDB\obj\Debug\net5.0\ref\LoggerService.dll
 C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\LogDB\obj\Debug\net5.0\LoggerService.pdb
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\LogDB\bin\Debug\net5.0\LoggerService.deps.json
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\LogDB\bin\Debug\net5.0\LoggerService.dll
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\LogDB\bin\Debug\net5.0\ref\LoggerService.dll
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\LogDB\bin\Debug\net5.0\LoggerService.pdb
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\LogDB\obj\Debug\net5.0\LoggerService.csproj.AssemblyReference.cache
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\LogDB\obj\Debug\net5.0\LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\LogDB\obj\Debug\net5.0\LoggerService.AssemblyInfoInputs.cache
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\LogDB\obj\Debug\net5.0\LoggerService.AssemblyInfo.cs
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\LogDB\obj\Debug\net5.0\LoggerService.csproj.CoreCompileInputs.cache
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\LogDB\obj\Debug\net5.0\LoggerService.dll
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\LogDB\obj\Debug\net5.0\ref\LoggerService.dll
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\LogDB\obj\Debug\net5.0\LoggerService.pdb

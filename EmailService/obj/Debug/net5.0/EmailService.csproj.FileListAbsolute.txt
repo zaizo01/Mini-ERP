@@ -10,3 +10,15 @@ C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\EmailService\obj
 C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\EmailService\obj\Debug\net5.0\EmailService.dll
 C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\EmailService\obj\Debug\net5.0\ref\EmailService.dll
 C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\EmailService\obj\Debug\net5.0\EmailService.pdb
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\EmailService\bin\Debug\net5.0\EmailService.deps.json
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\EmailService\bin\Debug\net5.0\EmailService.dll
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\EmailService\bin\Debug\net5.0\ref\EmailService.dll
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\EmailService\bin\Debug\net5.0\EmailService.pdb
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\EmailService\obj\Debug\net5.0\EmailService.csproj.AssemblyReference.cache
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\EmailService\obj\Debug\net5.0\EmailService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\EmailService\obj\Debug\net5.0\EmailService.AssemblyInfoInputs.cache
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\EmailService\obj\Debug\net5.0\EmailService.AssemblyInfo.cs
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\EmailService\obj\Debug\net5.0\EmailService.csproj.CoreCompileInputs.cache
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\EmailService\obj\Debug\net5.0\EmailService.dll
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\EmailService\obj\Debug\net5.0\ref\EmailService.dll
+C:\Users\CZaiz\Desktop\Files\Mini-ERP\EmailService\obj\Debug\net5.0\EmailService.pdb

@@ -7878,23 +7878,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\zaiz\\.nuget\\packages\\": {},
+    "C:\\Users\\CZaiz\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\Contracts\\Contracts.csproj",
+      "projectUniqueName": "C:\\Users\\CZaiz\\Desktop\\Files\\Mini-ERP\\Contracts\\Contracts.csproj",
       "projectName": "Contracts",
-      "projectPath": "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\Contracts\\Contracts.csproj",
-      "packagesPath": "C:\\Users\\zaiz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\Contracts\\obj\\",
+      "projectPath": "C:\\Users\\CZaiz\\Desktop\\Files\\Mini-ERP\\Contracts\\Contracts.csproj",
+      "packagesPath": "C:\\Users\\CZaiz\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\CZaiz\\Desktop\\Files\\Mini-ERP\\Contracts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\zaiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\CZaiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -7909,8 +7909,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\WebApiPractices\\WebApiPractices.csproj": {
-              "projectPath": "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\WebApiPractices\\WebApiPractices.csproj"
+            "C:\\Users\\CZaiz\\Desktop\\Files\\Mini-ERP\\WebApiPractices\\WebApiPractices.csproj": {
+              "projectPath": "C:\\Users\\CZaiz\\Desktop\\Files\\Mini-ERP\\WebApiPractices\\WebApiPractices.csproj"
             }
           }
         }

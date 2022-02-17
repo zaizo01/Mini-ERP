@@ -1449,21 +1449,21 @@
           "EmailService.dll": {}
         }
       },
-      "LoggerServices/1.0.0": {
+      "LoggerService/1.0.0": {
         "dependencies": {
           "NLog": "4.7.13",
           "NLog.Web.AspNetCore": "4.14.0",
           "System.Data.SqlClient": "4.8.3"
         },
         "runtime": {
-          "LoggerServices.dll": {}
+          "LoggerService.dll": {}
         }
       },
       "WebApiPractices/1.0.0": {
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
           "EmailService": "1.0.0",
-          "LoggerServices": "1.0.0",
+          "LoggerService": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.0",
           "Microsoft.AspNetCore.Cors": "2.2.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.0",
@@ -2588,7 +2588,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "LoggerServices/1.0.0": {
+    "LoggerService/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

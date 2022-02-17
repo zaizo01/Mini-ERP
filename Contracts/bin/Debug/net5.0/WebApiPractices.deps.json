@@ -35,7 +35,7 @@
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
           "EmailService": "1.0.0",
-          "LogDB": "1.0.0",
+          "LoggerService": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.0",
           "Microsoft.AspNetCore.Cors": "2.2.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.0",
@@ -1904,6 +1904,19 @@
           "EmailService.dll": {}
         }
       },
+      "LoggerService/1.0.0": {
+        "dependencies": {
+          "NLog": "4.7.13",
+          "NLog.Web.AspNetCore": "4.14.0",
+          "System.Data.SqlClient": "4.8.3"
+        },
+        "runtime": {
+          "LoggerService.dll": {}
+        },
+        "compile": {
+          "LoggerService.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Antiforgery.dll": {}
@@ -3565,14 +3578,6 @@
           "WindowsBase.dll": {}
         },
         "compileOnly": true
-      },
-      "LogDB/1.0.0": {
-        "dependencies": {
-          "NLog": "4.7.13",
-          "NLog.Web.AspNetCore": "4.14.0",
-          "System.Data.SqlClient": "4.8.3"
-        },
-        "compileOnly": true
       }
     }
   },
@@ -4703,6 +4708,11 @@
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
     "EmailService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LoggerService/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -6089,11 +6099,6 @@
     },
     "WindowsBase/4.0.0.0": {
       "type": "referenceassembly",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "LogDB/1.0.0": {
-      "type": "project",
       "serviceable": false,
       "sha512": ""
     }
