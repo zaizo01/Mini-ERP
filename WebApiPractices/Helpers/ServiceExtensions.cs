@@ -14,6 +14,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using WebApiPractices.CustomTokenProviders;
+using WebApiPractices.Repositories;
 
 namespace WebApiPractices.Helpers
 {
@@ -134,6 +135,11 @@ namespace WebApiPractices.Helpers
         public static void ConfigureLoggerService(this IServiceCollection services)
         {
             services.AddSingleton<ILoggerManager, LoggerManager>();
+        }
+
+        public static void ConfigureRepositoryPattern(this IServiceCollection services)
+        {
+            services.AddScoped<IClientRepository, ClientRepository>();
         }
     }
 }

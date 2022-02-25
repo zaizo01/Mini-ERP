@@ -31,7 +31,6 @@ namespace WebApiPractices.Controllers
         {
            
                 var departments = await context.Department.ToListAsync();
-            throw new Exception("Exception");
                 return mapper.Map<List<DepartmentGetDTO>>(departments);
 
            

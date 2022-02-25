@@ -7953,23 +7953,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\CZaiz\\.nuget\\packages\\": {},
+    "C:\\Users\\zaiz\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CZaiz\\Desktop\\Files\\Mini-ERP\\WebApiPractices\\WebApiPractices.csproj",
+      "projectUniqueName": "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\WebApiPractices\\WebApiPractices.csproj",
       "projectName": "WebApiPractices",
-      "projectPath": "C:\\Users\\CZaiz\\Desktop\\Files\\Mini-ERP\\WebApiPractices\\WebApiPractices.csproj",
-      "packagesPath": "C:\\Users\\CZaiz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CZaiz\\Desktop\\Files\\Mini-ERP\\WebApiPractices\\obj\\",
+      "projectPath": "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\WebApiPractices\\WebApiPractices.csproj",
+      "packagesPath": "C:\\Users\\zaiz\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\WebApiPractices\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\CZaiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\zaiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -7984,11 +7984,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\CZaiz\\Desktop\\Files\\Mini-ERP\\EmailService\\EmailService.csproj": {
-              "projectPath": "C:\\Users\\CZaiz\\Desktop\\Files\\Mini-ERP\\EmailService\\EmailService.csproj"
+            "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\EmailService\\EmailService.csproj": {
+              "projectPath": "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\EmailService\\EmailService.csproj"
             },
-            "C:\\Users\\CZaiz\\Desktop\\Files\\Mini-ERP\\LogDB\\LoggerService.csproj": {
-              "projectPath": "C:\\Users\\CZaiz\\Desktop\\Files\\Mini-ERP\\LogDB\\LoggerService.csproj"
+            "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\LogDB\\LoggerService.csproj": {
+              "projectPath": "C:\\Users\\zaiz\\Desktop\\Desktop\\API Restful Course\\WebApiTemplate\\LogDB\\LoggerService.csproj"
             }
           }
         }

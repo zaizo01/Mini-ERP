@@ -26,6 +26,7 @@ namespace WebApiPractices
         public DbSet<JobPosition> JobPosition { get; set; }
         public DbSet<Employee> Employee { get; set; }
         public DbSet<Article> Article { get; set; }
-
+        public DbSet<Category> Category { get; set; }
+        public DbSet<Client> Client { get; set; }
     }
 }

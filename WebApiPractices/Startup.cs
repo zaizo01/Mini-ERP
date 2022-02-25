@@ -55,6 +55,8 @@ namespace WebApiPractices
             services.ConfigureSwaggerGen();
 
             services.ConfigureLoggerService();
+
+            services.ConfigureRepositoryPattern();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

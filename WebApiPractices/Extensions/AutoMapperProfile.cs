@@ -29,6 +29,9 @@ namespace WebApiPractices.Helpers
             CreateMap<Employee, EmployeeJobPostionDTO>().ReverseMap();
             CreateMap<Employee, EmployeeDepartmentDTO>().ReverseMap();
             CreateMap<Employee, EmployeePostDTO>().ReverseMap();
+
+            CreateMap<Client, ClientGetDTO>().ReverseMap();
+            CreateMap<Client, ClientPostDTO>().ReverseMap();
         }
     }
 }

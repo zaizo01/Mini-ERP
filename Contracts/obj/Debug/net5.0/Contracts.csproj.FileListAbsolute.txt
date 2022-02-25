@@ -23,8 +23,6 @@ C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\Contracts\bin\De
 C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\Contracts\bin\Debug\net5.0\WebApiPractices.pdb
 C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\Contracts\bin\Debug\net5.0\EmailService.pdb
 C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\Contracts\obj\Debug\net5.0\Contracts.csproj.CopyComplete
-C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\Contracts\bin\Debug\net5.0\LoggerServices.dll
-C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\Contracts\bin\Debug\net5.0\LoggerServices.pdb
 C:\Users\CZaiz\Desktop\Files\Mini-ERP\Contracts\bin\Debug\net5.0\WebApiPractices.deps.json
 C:\Users\CZaiz\Desktop\Files\Mini-ERP\Contracts\bin\Debug\net5.0\WebApiPractices.runtimeconfig.json
 C:\Users\CZaiz\Desktop\Files\Mini-ERP\Contracts\bin\Debug\net5.0\WebApiPractices.runtimeconfig.dev.json
@@ -52,3 +50,5 @@ C:\Users\CZaiz\Desktop\Files\Mini-ERP\Contracts\obj\Debug\net5.0\Contracts.cspro
 C:\Users\CZaiz\Desktop\Files\Mini-ERP\Contracts\obj\Debug\net5.0\Contracts.dll
 C:\Users\CZaiz\Desktop\Files\Mini-ERP\Contracts\obj\Debug\net5.0\ref\Contracts.dll
 C:\Users\CZaiz\Desktop\Files\Mini-ERP\Contracts\obj\Debug\net5.0\Contracts.pdb
+C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\Contracts\bin\Debug\net5.0\LoggerService.dll
+C:\Users\zaiz\Desktop\Desktop\API Restful Course\WebApiTemplate\Contracts\bin\Debug\net5.0\LoggerService.pdb
